@@ -1,0 +1,181 @@
+.register {
+  position: relative;
+  background: var(--background-color);
+  display: flex;
+  flex-direction: column;
+  max-width: 375px;
+  max-height: 812px;
+  padding: 40px 30px;
+}
+
+.rBack {
+  width: 10.5px;
+  height: 21px;
+  cursor: pointer;
+}
+
+.rTitle {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 30px;
+  /* identical to box height, or 100% */
+
+  color: #1a1d1e;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+.rSubtitle {
+  width: 229px;
+  height: 48px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  color: #6a6a6a;
+  padding-bottom: 25px;
+}
+
+.rForm {
+  position: relative;
+  width: 90%;
+  height: 54px;
+  padding: 5px 0;
+  z-index: 0;
+}
+
+.rInput {
+  position: absolute;
+  width: 80%;
+  border: none;
+  background: #ffffff;
+  border-radius: 12px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  /* identical to box height, or 21px */
+  z-index: 0;
+  color: #6a6a6a;
+  padding: 16px 54px;
+  left: 0;
+  right: 0;
+}
+
+.rIconRight {
+  width: 20px;
+  height: 26px;
+  position: absolute;
+  border: none;
+  z-index: 9999;
+  top: 16px;
+  left: 22px;
+}
+
+.rIconLeft {
+  width: 20px;
+  height: 26px;
+  position: absolute;
+  border: none;
+  z-index: 9999;
+  top: 16px;
+  right: -10px;
+  cursor: pointer;
+}
+
+.rButton {
+  margin-top: 62px;
+  width: 100%;
+  height: 54px;
+
+  background: var(--button-color);
+  border-radius: 12px;
+  border: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height, or 100% */
+
+  text-align: center;
+
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.rText {
+  display: flex;
+  flex-direction: row;
+  padding: 30px 85px;
+  margin-top: 10px;
+  gap: 10px;
+  align-items: center;
+}
+
+.rText hr {
+  width: 20px;
+  height: 0;
+  border: 2px solid #9e9e9e;
+}
+
+.rText span {
+  width: 134px;
+  height: 16px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height, or 100% */
+  color: #6a6a6a;
+}
+
+.rSocial {
+  padding: 0 117px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.rsButton {
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
+  border: none;
+  align-items: center;
+  cursor: pointer;
+}
+
+.google {
+  background: #e9f4ff;
+}
+
+.facebook {
+  background: #4460a0;
+}
+
+.rLogin {
+  padding: 40px 0;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+
+  color: #6a6a6a;
+}
+
+.rLogin b {
+  cursor: pointer;
+}

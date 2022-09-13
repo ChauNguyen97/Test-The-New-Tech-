@@ -1,0 +1,58 @@
+.clubList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  z-index: 999;
+}
+
+.clContent {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.clTitle {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  /* identical to box height, or 100% */
+  color: #1a1d1e;
+  margin: 0;
+}
+
+.clOption {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  /* identical to box height, or 100% */
+  color: #6a6a6a;
+  margin: 0;
+}
+
+.clItem {
+  max-width: 1000%;
+  padding-bottom: 15px;
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  z-index: 0;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+.clItem.colum {
+  height: 250px;
+  padding-top: 10px;
+  flex-direction: column;
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 0;
+}

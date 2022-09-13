@@ -1,0 +1,129 @@
+.clubItem {
+  max-width: 70%;
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0px 10px 35px -10px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  position: relative;
+  padding: 15px;
+}
+
+.ciInfo {
+  width: 230px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.ciLogo {
+  width: 40px;
+  height: 40px;
+  border-radius: 13px;
+}
+
+.ciUser {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.ciGym {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  /* identical to box height, or 100% */
+
+  text-align: start;
+
+  color: #6a6a6a;
+  margin: 0;
+}
+
+.ciName {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height, or 100% */
+
+  color: #151313;
+  margin: 0;
+}
+
+.ciDetail {
+  display: flex;
+  gap: 5px;
+  padding: 10px 0;
+}
+
+.ciPrice {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 12px;
+  /* identical to box height, or 100% */
+
+  text-align: start;
+  margin: 0;
+  color: #151313;
+}
+
+.ciAddress {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  /* identical to box height, or 100% */
+
+  text-align: center;
+
+  color: #6a6a6a;
+  margin: 0;
+}
+
+.ciIcon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.clubItem.listMode {
+  max-width: 375px;
+  width: 90%;
+}
+
+.clubItem.listMode .ciLogo {
+  width: 50px;
+  height: 50px;
+}
+
+.clubItem.listMode .ciInfo {
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.clubItem.listMode .ciIcon {
+  display: none;
+}
+
+.clubItem.listMode .ciAddress {
+  display: none;
+}
+
+.clubItem.listMode .ciUser {
+  flex-direction: column-reverse;
+  gap: 10px;
+}
+
+.clubItem.listMode .ciPrice {
+  padding-left: 35px;
+  color: #6a6a6a;
+}

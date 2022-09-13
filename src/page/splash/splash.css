@@ -1,0 +1,56 @@
+.splash {
+  display: flex;
+  max-width: 375px;
+  flex-direction: column;
+  background: #ffffff;
+  padding: 66px 0px;
+  gap: 67px;
+}
+
+.splashImage {
+  height: 378px;
+}
+
+.splashTitle {
+  margin-top: 30px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 44px;
+  /* or 129% */
+
+  text-align: center;
+
+  color: var(--text-title-color);
+  padding: 0px 65px;
+}
+
+.splashButton {
+  margin: 0 57px;
+  padding: 15px 53px;
+  width: 261px;
+  height: 54px;
+  background: var(--button-color);
+  border-radius: 12px;
+  border-style: none;
+  color: white;
+}
+
+.splashButton span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  margin-right: 6px;
+  /* identical to box height, or 21px */
+
+  text-align: center;
+}
+
+.splashButton span {
+  width: 17px;
+  height: 11px;
+  text-align: center;
+}

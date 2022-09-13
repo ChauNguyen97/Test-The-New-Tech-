@@ -1,0 +1,174 @@
+.login {
+  position: relative;
+  background: var(--background-color);
+  display: flex;
+  flex-direction: column;
+  max-width: 375px;
+  max-height: 812px;
+  padding: 100px 30px;
+}
+
+.lTitle {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 30px;
+  /* identical to box height, or 100% */
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: var(--text-title-color);
+}
+
+.lSubtitle {
+  width: 227px;
+  height: 48px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  color: var(--text-color);
+}
+
+.lForm {
+  position: relative;
+  width: 335px;
+  height: 54px;
+  margin-top: 25px;
+  z-index: 0;
+}
+
+.lInput {
+  position: absolute;
+  width: 80%;
+  height: 54px;
+  border: none;
+  background: #ffffff;
+  border-radius: 12px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  /* identical to box height, or 21px */
+  z-index: 0;
+  color: #6a6a6a;
+  padding: 0 54px;
+  left: 0;
+  right: 0;
+}
+
+.lIconRight {
+  width: 20px;
+  height: 26px;
+  position: absolute;
+  border: none;
+  z-index: 9999;
+  top: 14px;
+  left: 22px;
+}
+
+.lIconLeft {
+  width: 20px;
+  height: 26px;
+  position: absolute;
+  border: none;
+  z-index: 9999;
+  top: 14px;
+  right: -10px;
+  cursor: pointer;
+}
+
+.lButton {
+  margin-top: 62px;
+  width: 100%;
+  height: 54px;
+  left: 20px;
+  top: 412px;
+
+  background: var(--button-color);
+  border-radius: 12px;
+  border: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height, or 100% */
+
+  text-align: center;
+
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.lText {
+  display: flex;
+  flex-direction: row;
+  padding: 30px 85px;
+  margin-top: 10px;
+  gap: 10px;
+  align-items: center;
+}
+
+.lText hr {
+  width: 20px;
+  height: 0;
+  border: 2px solid #9e9e9e;
+}
+
+.lText span {
+  width: 134px;
+  height: 16px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height, or 100% */
+  color: #6a6a6a;
+}
+
+.lSocial {
+  padding: 0 117px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.lsButton {
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
+  border: none;
+  align-items: center;
+  cursor: pointer;
+}
+
+.google {
+  background: #e9f4ff;
+}
+
+.facebook {
+  background: #4460a0;
+}
+
+.lRegister {
+    padding: 40px 0;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+
+  color: #6a6a6a;
+}
+
+.lRegister b{
+    cursor: pointer;
+}
